@@ -12,11 +12,12 @@ while True:
    if opcao == '1':
       funcoes.adiciona_contato()
    if opcao == '2':
-      print("buscando contato")    
+      funcoes.busca_contato() 
    if opcao == '3':
-      print("atualizando contato") 
+      funcoes.alterar_contato()
    if opcao == '4':
-      print("apagando contato")
+      funcoes.apaga_contato()
    else:
       print("errado isso ai manin")  
+   input()
    

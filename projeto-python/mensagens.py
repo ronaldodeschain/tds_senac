@@ -17,5 +17,19 @@ def menu():
     print('\t0.Sair')
 
 def novo_contato():
-    print("\n")
+    print("\n\n")
     print("adicionando novo contato")
+
+def busca_contato():
+    print("\n\n")
+    print("caçando o contato")
+    print("Digite o seu alvo: ")
+
+def apaga_contato():
+    print("\n\n")
+    print("Qual alvo será eliminado?")
+
+def alterar_contato():
+    print("\n\n")
+    print("qual contato está evoluindo?")
+    
